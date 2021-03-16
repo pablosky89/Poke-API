@@ -9,14 +9,16 @@ html {
     box-sizing: border-box;
     font-size: 62.5%;
 }
-*, *:before, *:after {
-box-sizing: inherit;
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
 }
 
 body {
-    font-family: 'Kumbh Sans', sans-serif;
+    font-family: "Kumbh Sans", sans-serif;
     background-color: var(--dark-cyan);
-    background-image: url('../images/bg-pattern-top.svg'), url('../images/bg-pattern-bottom.svg');
+    background-image: url("../images/bg-pattern-top.svg"), url("../images/bg-pattern-bottom.svg");
     background-repeat: no-repeat, no-repeat;
     // background-image: url('../images/image-victor.jpg');
     // background-repeat: no-repeat;
@@ -55,7 +57,7 @@ body {
             // width: 100%;
             border: 5px solid white;
             border-radius: 50%;
-            margin-top: calc(-48px - 5px);
+            margin-top: calc(-100px - 5px);
             background-color: white;
             // filter: invert(100%);
             // object-fit: cover;
@@ -79,7 +81,6 @@ body {
             margin-top: 0;
             margin-bottom: 2rem;
         }
-
     }
 
     &-footer {
@@ -94,9 +95,6 @@ body {
             p {
                 letter-spacing: 1px;
             }
-
         }
-
     }
-
 }
